@@ -180,7 +180,6 @@ a:focus {
     height: calc(100% - 80px);
     display: flex;
     align-items: center;
-
     .detail-box {
         color: $white;
 
@@ -364,7 +363,7 @@ a:focus {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        text-align: center;
         .btn-box {
             a {
                 @include hero_btn($primary1, $white, 10px, 55px, 5px);
